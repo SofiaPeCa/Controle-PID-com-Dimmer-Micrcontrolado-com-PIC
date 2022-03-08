@@ -1,0 +1,113 @@
+/*
+ * File:   atraso.c
+ * Author: sofia
+ *
+ * Created on 2 de Março de 2022, 18:51
+ */
+
+#define _XTAL_FREQ 8000000
+#include <xc.h>
+
+void atraso(int PID) {
+if(PID ==100){__delay_us(166.66);}
+else if(PID ==99){__delay_us(242,9934);}
+else if(PID ==98){__delay_us(319.3268);}
+else if(PID ==97){__delay_us(395.6602);}
+else if(PID ==96){__delay_us(471.9936);}
+else if(PID ==95){__delay_us(548.327);}
+else if(PID ==94){__delay_us(624.6604);}
+else if(PID ==93){__delay_us(700.9938);}
+else if(PID ==92){__delay_us(777.3272);}
+else if(PID ==91){__delay_us(853.6606);}
+else if(PID ==90){__delay_us(929.994);}
+else if(PID ==89){__delay_us(1006.3274);}
+else if(PID ==88){__delay_us(1082.6608);}
+else if(PID ==87){__delay_us(1158.9942);}
+else if(PID ==86){__delay_us(1235.3276);}
+else if(PID ==85){__delay_us(1311.661);}
+else if(PID ==84){__delay_us(1387.9944);}
+else if(PID ==83){__delay_us(1464.3278);}
+else if(PID ==82){__delay_us(1540.6612);}
+else if(PID ==81){__delay_us(1616.9946);}
+else if(PID ==80){__delay_us(1693.328);}
+else if(PID ==79){__delay_us(1769.6614);}
+else if(PID ==78){__delay_us(1845.9948);}
+else if(PID ==77){__delay_us(1922.3282);}
+else if(PID ==76){__delay_us(1998.6616);}
+else if(PID ==75){__delay_us(2074.995);}
+else if(PID ==74){__delay_us(2151.3284);}
+else if(PID ==73){__delay_us(2227.6618);}
+else if(PID ==72){__delay_us(2303.9952);}
+else if(PID ==71){__delay_us(2380.3286);}
+else if(PID ==70){__delay_us(2456.662);}
+else if(PID ==69){__delay_us(2532.9954);}
+else if(PID ==68){__delay_us(2609.3288);}
+else if(PID ==67){__delay_us(2685.6622);}
+else if(PID ==66){__delay_us(2761.9956);}
+else if(PID ==65){__delay_us(2838.329);}
+else if(PID ==64){__delay_us(2914.6624);}
+else if(PID ==63){__delay_us(2990.9958);}
+else if(PID ==62){__delay_us(3067.3292);}
+else if(PID ==61){__delay_us(3143.6626);}
+else if(PID ==60){__delay_us(3219.996);}
+else if(PID ==59){__delay_us(3296.3294);}
+else if(PID ==58){__delay_us(3372.6628);}
+else if(PID ==57){__delay_us(3448.9962);}
+else if(PID ==56){__delay_us(3525.3296);}
+else if(PID ==55){__delay_us(3601.663);}
+else if(PID ==54){__delay_us(3677.9964);}
+else if(PID ==53){__delay_us(3754.3298);}
+else if(PID ==52){__delay_us(3830.6632);}
+else if(PID ==51){__delay_us(3906.9966);}
+else if(PID ==50){__delay_us(3983.33);}
+else if(PID ==49){__delay_us(4059.6634);}
+else if(PID ==48){__delay_us(4135.9968);}
+else if(PID ==47){__delay_us(4212.3302);}
+else if(PID ==46){__delay_us(4288.6636);}
+else if(PID ==45){__delay_us(4364.997);}
+else if(PID ==44){__delay_us(4441.3304);}
+else if(PID ==43){__delay_us(4517.6638);}
+else if(PID ==42){__delay_us(4593.9972);}
+else if(PID ==41){__delay_us(4670.3306);}
+else if(PID ==40){__delay_us(4746.664);}
+else if(PID ==39){__delay_us(4822.9974);}
+else if(PID ==38){__delay_us(4899.3308);}
+else if(PID ==37){__delay_us(4975.6642);}
+else if(PID ==36){__delay_us(5051.9976);}
+else if(PID ==35){__delay_us(5128.331);}
+else if(PID ==34){__delay_us(5204.6644);}
+else if(PID ==33){__delay_us(5280.9978);}
+else if(PID ==32){__delay_us(5357.3312);}
+else if(PID ==31){__delay_us(5433.6646);}
+else if(PID ==30){__delay_us(5509.998);}
+else if(PID ==29){__delay_us(5586.3314);}
+else if(PID ==28){__delay_us(5662.6648);}
+else if(PID ==27){__delay_us(5738.9982);}
+else if(PID ==26){__delay_us(5815.3316);}
+else if(PID ==25){__delay_us(5891.665);}
+else if(PID ==24){__delay_us(5967.9984);}
+else if(PID ==23){__delay_us(6044.3318);}
+else if(PID ==22){__delay_us(6120.6652);}
+else if(PID ==21){__delay_us(6196.9986);}
+else if(PID ==20){__delay_us(6273.332);}
+else if(PID ==19){__delay_us(6349.6654);}
+else if(PID ==18){__delay_us(6425.9988);}
+else if(PID ==17){__delay_us(6502.3322);}
+else if(PID ==16){__delay_us(6578.6656);}
+else if(PID ==15){__delay_us(6654.999);}
+else if(PID ==14){__delay_us(6731.3324);}
+else if(PID ==13){__delay_us(6807.6658);}
+else if(PID ==12){__delay_us(6883.9992);}
+else if(PID ==11){__delay_us(6960.3326);}
+else if(PID ==10){__delay_us(7036.666);}
+else if(PID ==9){__delay_us(7112.9994);}
+else if(PID ==8){__delay_us(7189.3328);}
+else if(PID ==7){__delay_us(7265.6662);}
+else if(PID ==6){__delay_us(7341.9996);}
+else if(PID ==5){__delay_us(7418.333);}
+else if(PID ==4){__delay_us(7494.6664);}
+else if(PID ==3){__delay_us(7570.9998);}
+else if(PID ==2){__delay_us(7647.3332);}
+else if(PID ==1){__delay_us(7723.6666);}
+else if(PID ==0){__delay_us(7800);}
+}
